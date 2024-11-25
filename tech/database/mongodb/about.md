@@ -44,7 +44,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 Now you can install with dnf
 
 ```console
-$ sudo dnf install mongodb-org
+$ sudo dnf install -y mongodb-org mongodb-mongosh-shared-openssl3
 ```
 
 Currently some packages do not install, however those packages do not affect the functionality of MongoDB.
